@@ -1,8 +1,8 @@
 <h1 align="center"><img 
- <h2><img width="25" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/icons/icon-skills.png" /><i> 𝗦𝗛𝗔𝗡𝗧𝗢 𝗦𝗞𝗜𝗟𝗟𝗔 𝗦𝗧𝗔𝗖𝗞 & 𝗗𝗘𝗕 𝗧𝗢𝗢𝗟𝗫 𝗞𝗜𝗡𝗚 𝗢𝗙 𝗩𝗜𝗥𝗧𝗨𝗔𝗟 𝗢𝗞𝗛 𝗕𝗬𝗘:</i></h2>
+ <h2><img width="25" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/icons/icon-skills.png" /><i> 𝐑𝐎𝐂𝐊𝐘 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘 𝗦𝗧𝗔𝗖𝗞 & 𝗗𝗘𝗕 𝗧𝗢𝗢𝗟𝗫 𝗞𝗜𝗡𝗚 𝗢𝗙 𝗩𝗜𝗥𝗧𝗨𝗔𝗟 𝗢𝗞𝗛 𝗕𝗬𝗘:</i></h2>
 
 <!-- ─── Front‑End ───────────────────────────────────────────────────────────── -->
-![ONLINE README KING SHANTO OKH BYE](https://img.shields.io/badge/ONLINE!AR!README!KING!SHANTO-E34F26?style=plastic&logo=html5&logoColor=white)
+![ONLINE README KING SHANTO OKH BYE](https://img.shields.io/badge/ONLINE!AR!README!KING!ROCKY-E34F26?style=plastic&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=plastic&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=plastic&logo=bootstrap&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=plastic&logo=tailwind-css&logoColor=white)
@@ -45,10 +45,10 @@
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=plastic&logo=Canva&logoColor=white)                    
 >
 <h1 align="center"><img 
- <h2><img width="25" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/icons/icon-skills.png"-E34F26? /><i> 𝗦𝗛𝗔𝗡𝗧𝗢-𝗕𝗢𝗧 - 𝗬𝗢𝗨𝗥 𝗔𝗟𝗜𝗦𝗛𝗔  𝗠𝗘𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧</h1>
+ <h2><img width="25" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/icons/icon-skills.png"-E34F26? /><i> 𝐑𝐎𝐂𝐊𝐘-𝗕𝗢𝗧 - 𝗬𝗢𝗨𝗥 𝐒𝐇𝐈𝐙𝐔𝐊𝐀  𝗠𝗘𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧</h1>
 <!-- Github README -->
-<img src="https://files.catbox.moe/fbas8z.jpg"
-<p align="center"><img src="https://img.shields.io/badge/I Am %20BANGLADESHI- NOOB PROGRAMMER-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
+<img src="https://i.ibb.co/gLfjn2L7/image0.jpg"
+<p align="center"><img src="://img.shields.io/badge/I Am %20httpsBANGLADESHI- NOOB PROGRAMMER-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
 
 </i></b></h3>
 <h3 align="center">
@@ -78,7 +78,7 @@
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
-- ➪ 𝗡𝗔𝗠𝗘      : 𝗦𝗛𝗔𝗡𝗧𝗢
+- ➪ 𝗡𝗔𝗠𝗘      : 𝐑𝐎𝐂𝐊𝐘
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
@@ -94,16 +94,15 @@
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
-- ➪ 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 :- [𝗦𝗛𝗔𝗡𝗧𝗢 𝗔𝗛𝗠𝗘𝗗](https://www.facebook.com/profile.php?id=100089927607228)
-
+- ➪ 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 :- [𝐑𝐎𝐂𝐊𝐘 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘](https://www.facebook.com/owner.mcf.rocky.404)
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
-- ➪ 𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 :- [𝗟𝗬𝗥𝗜𝗫 𝗦𝗛𝗔𝗡𝗧𝗢](https://www.instagram.com/shanto_lyrics_1.0?igsh=MXdzcWo3Y3lqZ2d1cQ==)
+- ➪ 𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 :- [ROCKY CHOWDHURY ](https://www.instagram.com/rockyvai3733?igsh=b2t5ZTJieDlyYjI1)
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
 <h3><b><i> Contact me in Touch :</i></b></h3>
 <a href="https://github.com/rocky-bot-320"><img align="left" title="Github" alt="Github" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" /></a>
-<a href="https://fb.com/bd.king.riyaz.top.voicer.420"><img align="left" title="Facebook" alt="Facebook" width="30px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" /></a>
+<a href="https://www.facebook.com/owner.mcf.rocky.404"><img align="left" title="Facebook" alt="Facebook" width="30px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" /></a>
 <a href="https://www.instagram.com/rocky404bot4
 _islam"><img align="left" title="Instagram" alt="Instagram" width="30px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" /></a>
