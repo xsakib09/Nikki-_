@@ -74,7 +74,7 @@
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-1.svg">
 
-<h3 align="center">A Passionate Frontend Developer From Bangladesh SHANTO</h3>
+<h3 align="center">A Passionate Frontend Developer From Bangladesh ROCKY</h3>
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
