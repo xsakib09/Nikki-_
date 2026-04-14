@@ -1,0 +1,168 @@
+const { getPrefix } = global.utils;
+const { commands, aliases } = global.GoatBot;
+
+module.exports = {
+  config: {
+    name: "magi",
+    aliases: ["help", "menu"],
+    version: "2.1",
+    author: "SAmi",
+    countDown: 3,
+    role: 0,
+    shortDescription: {
+      en: "View all bot commands"
+    },
+    longDescription: {
+      en: "Display command list, category list and command usage"
+    },
+    category: "info",
+    guide: {
+      en: "{pn}help\n{pn}help <command>\n{pn}help -c <category>"
+    },
+    priority: 1
+  },
+
+  onStart: async function ({ message, args, event, threadsData, role }) {
+    const { threadID } = event;
+    const prefix = getPrefix(threadID);
+
+    // ===================== ALL COMMANDS =====================
+    if (args.length === 0) {
+      const categories = {};
+      let msg = "";
+
+      msg += `╔══════════════════════╗\n`;
+      msg += `║      ✦ 𝗡𝗜𝗞𝗞𝗜 𝗕𝗢𝗧 ✦      ║\n`;
+      msg += `╚══════════════════════╝\n`;
+      msg += `╭───『 📜 COMMAND LIST 』───╮\n`;
+
+      for (const [name, value] of commands) {
+        if (value.config.role > role) continue;
+
+        const category = value.config.category || "Uncategorized";
+        if (!categories[category]) categories[category] = [];
+        categories[category].push(name);
+      }
+
+      const sortedCategories = Object.keys(categories).sort();
+
+      for (const category of sortedCategories) {
+        msg += `\n╭──『 ${category.toUpperCase()} 』`;
+        const names = categories[category].sort();
+
+        for (const cmd of names) {
+          msg += `\n│ ✧ ${cmd}`;
+        }
+
+        msg += `\n╰─────────────⭓`;
+      }
+
+      msg += `\n╰────────────────────╯`;
+      msg += `\n✨ Total Commands: ${commands.size}`;
+      msg += `\n📌 Use: ${prefix}help <command>`;
+      msg += `\n📂 Category: ${prefix}help -c <name>`;
+      msg += `\n╭───────────────╮`;
+      msg += `\n│ 🤖 Bot Name: Nikki`;
+      msg += `\n│ 👑 Owner: Sami`;
+      msg += `\n│ 🌐 Facebook: https://www.facebook.com/share/1Au9tCTJmQ/`;
+      msg += `\n╰───────────────╯`;
+
+      return message.reply(msg);
+    }
+
+    // ===================== CATEGORY COMMAND =====================
+    if (args[0] === "-c") {
+      if (!args[1]) {
+        return message.reply(
+          `⚠️ Please specify a category.\nExample: ${prefix}help -c info`
+        );
+      }
+
+      const categoryName = args[1].toLowerCase();
+      const filteredCommands = Array.from(commands.values()).filter(
+        cmd =>
+          cmd.config.category &&
+          cmd.config.category.toLowerCase() === categoryName &&
+          cmd.config.role <= role
+      );
+
+      if (filteredCommands.length === 0) {
+        return message.reply(
+          `❌ No commands found in the "${categoryName}" category.`
+        );
+      }
+
+      let msg = `╔══════════════════════╗\n`;
+      msg += `║ 📂 ${categoryName.toUpperCase()} COMMANDS ║\n`;
+      msg += `╚══════════════════════╝\n`;
+
+      for (const cmd of filteredCommands) {
+        msg += `\n✧ ${cmd.config.name}`;
+      }
+
+      return message.reply(msg);
+    }
+
+    // ===================== COMMAND DETAILS =====================
+    const commandName = args[0].toLowerCase();
+    const command =
+      commands.get(commandName) ||
+      commands.get(aliases.get(commandName));
+
+    if (!command) {
+      return message.reply(`❌ Command "${commandName}" not found.`);
+    }
+
+    const configCommand = command.config;
+    const roleText = roleTextToString(configCommand.role);
+    const author = configCommand.author || "Unknown";
+
+    const longDescription =
+      configCommand.longDescription?.en || "No description available.";
+
+    const guideBody =
+      configCommand.guide?.en || "No guide available.";
+
+    const usage = guideBody
+      .replace(/{pn}/g, prefix)
+      .replace(/{p}/g, prefix)
+      .replace(/{n}/g, configCommand.name);
+
+    const response =
+      `╔══════════════════════╗\n` +
+      `║      🤖 NIKKI BOT      ║\n` +
+      `╚══════════════════════╝\n` +
+      `╭───『 📌 COMMAND INFO 』───╮\n` +
+      `│ 🔹 Name: ${configCommand.name}\n` +
+      `│ 🔹 Description: ${longDescription}\n` +
+      `│ 🔹 Aliases: ${configCommand.aliases?.join(", ") || "None"}\n` +
+      `│ 🔹 Version: ${configCommand.version || "1.0"}\n` +
+      `│ 🔹 Role: ${roleText}\n` +
+      `│ 🔹 Cooldown: ${configCommand.countDown || 1}s\n` +
+      `│ 🔹 Author: ${author}\n` +
+      `├──────────────────────\n` +
+      `│ 📖 Usage:\n` +
+      `│ ${usage}\n` +
+      `├──────────────────────\n` +
+      `│ 📝 Notes:\n` +
+      `│ • <text> means customizable\n` +
+      `│ • [a|b|c] means choose one\n` +
+      `╰──────────────────────╯`;
+
+    return message.reply(response);
+  }
+};
+
+// ================= ROLE TEXT FUNCTION =================
+function roleTextToString(role) {
+  switch (role) {
+    case 0:
+      return "All Users";
+    case 1:
+      return "Group Administrators";
+    case 2:
+      return "Bot Admin";
+    default:
+      return "Unknown";
+  }
+}
